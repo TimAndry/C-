@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\obj\Debug\netcoreapp2.0\fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\obj\Debug\netcoreapp2.0\fundamentals.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\obj\Debug\netcoreapp2.0\fundamentals.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\bin\Debug\netcoreapp2.0\fundamentals.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\bin\Debug\netcoreapp2.0\fundamentals.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\bin\Debug\netcoreapp2.0\fundamentals.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\bin\Debug\netcoreapp2.0\fundamentals.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\bin\Debug\netcoreapp2.0\fundamentals.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\obj\Debug\netcoreapp2.0\fundamentals.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\fundamentals\obj\Debug\netcoreapp2.0\fundamentals.pdb

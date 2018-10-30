@@ -1,0 +1,45 @@
+
+@model VModel
+
+<a asp-action="Logout"><button type="submit">Logout</button></a>
+
+<h1>Hello @ViewBag.User.FirstName, welcome to The Wall</h1>
+<br>
+<br>
+<br>
+<h3>Add a new message</h3>
+<form asp-action="AddMessage" asp-controller="Home" method="POST">
+    <input type="hidden" asp-for="MessageForm.UserId" value="@ViewBag.User.UserId"/>
+    <input type="hidden" asp-for="MessageForm.AuthorName" value="@ViewBag.User.FirstName @ViewBag.User.LastName"/>
+    <textarea asp-for="MessageForm.WallMessage" rows="5" cols="50" ></textarea><br>
+    <P class="error">@TempData["MessageForm.WallMessage"]</P><br>
+    <button type="submit">Add Message</button>
+</form>
+<br>
+<br>
+<h3>Messages</h3>
+@{ 
+    foreach(var message in @ViewBag.AllMessages){
+        <h4>@message.AuthorName</h4>
+        <p>@message.Date</p>
+        <p>@message.WallMessage</p>
+        <form asp-action="AddComment" asp-controller="Home" method="POST">
+            <input type="hidden" asp-for="CommentForm.UserId" value="@ViewBag.User.UserId"/>
+            <input type="hidden" asp-for="CommentForm.MessageId" value="@message.MessageId"/>
+            <input type="hidden" asp-for="CommentForm.AuthorName" value="@ViewBag.User.FirstName @ViewBag.User.LastName"/>
+            <textarea asp-for="CommentForm.WallComment" rows = "3" cols="100"></textarea><br>
+            @if(@message.MessageId == @ViewBag.MessageId){
+                <p class="error">@TempData["CommentForm.WallComment"]</p>  
+            }
+            <button type="submit">Add Comment</button>
+        </form><br>
+        @foreach(var comment in @ViewBag.AllComments){
+            @if(@message.MessageId == comment.MessageId){
+                <h4>@comment.AuthorName</h4>
+                <p>@comment.Date</p>
+                <p>@comment.WallComment</p>
+            }
+        }
+        <br><br>
+    }
+}

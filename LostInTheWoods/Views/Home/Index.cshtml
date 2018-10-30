@@ -1,0 +1,13 @@
+﻿@model Trail;
+
+<h1>Trails</h1>
+<a href="new"><button>Add Trail</button></a>
+<br><br>
+@{
+    foreach(var trail in @ViewBag.AllTrails){
+        <h3><a asp-action="Show" asp-route-id="@trail.idTrails">@trail.TrailName</a></h3>;
+        <p>@trail.TrailLength</p>;
+        <p>@trail.TrailDescription</p>;
+        <p>@trail.ElevationChange</p>;    
+    }
+}

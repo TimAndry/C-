@@ -1,0 +1,66 @@
+@model User
+
+<div id="top">
+    <h1 class = "top">Dojo Activity Center</h1>
+    <h3 class = "top">Welcome, <span class="error">@ViewBag.User.FirstName</span></h3>
+    <nav>
+        <li><a asp-action="Show">Home</a></li>
+        <li><a asp-action="Logout">Logout</a></li>
+    </nav>
+</div>
+
+<h1>Activities</h1>
+
+<table class="table">
+    <thead>
+        <th>Activity</th>
+        <th>Date and Time</th>
+        <th>Duration</th>
+        <th>Event Coordinator</th>
+        <th>Number of Participants</th>
+        <th>Actions</th>
+    </thead>
+
+    @{
+        
+        foreach(var Activity in @ViewBag.Activities){
+            int dateresult = DateTime.Compare(DateTime.Now, Activity.Date);
+            if(dateresult < 0){
+                var count=0;
+            bool rsvp = true;
+            <tr>
+                <td><a asp-action="ShowActivity" asp-route-id="@Activity.ActivityId">@Activity.Title</a></td>
+                <td>@Activity.Date</td>
+                <td>@Activity.Duration @Activity.TimeType</td>
+                <td>@Activity.Coordinator</td>
+                <td>
+                     @foreach(var guest in Activity.Users){
+                        if(@ViewBag.SessionId == @guest.User.UserId){
+                            rsvp = false;
+                        }
+                        count++;
+                    }
+                    @count
+                </td>
+                <td>g
+
+                    @if(rsvp == true){
+                        <a asp-action="Reserve" asp-route-id="@Activity.ActivityId">Join</a>;
+                    }
+                    @if(rsvp == false){
+                        <a asp-action="UnReserve" asp-route-id="@Activity.ActivityId">Leave</a>
+                    }
+                    @if(ViewBag.SessionId == Activity.UserId){
+                        <a asp-action="Delete" asp-route-id="@Activity.ActivityId">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+            }
+            
+    }
+
+
+</table>
+
+<a asp-action="AddActivity"><button type="submit">Add New Activity</button></a>

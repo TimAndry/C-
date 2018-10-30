@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\bin\Debug\netcoreapp2.0\FirstCSharp.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\bin\Debug\netcoreapp2.0\FirstCSharp.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\bin\Debug\netcoreapp2.0\FirstCSharp.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\bin\Debug\netcoreapp2.0\FirstCSharp.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\bin\Debug\netcoreapp2.0\FirstCSharp.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\obj\Debug\netcoreapp2.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\obj\Debug\netcoreapp2.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\obj\Debug\netcoreapp2.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\obj\Debug\netcoreapp2.0\FirstCSharp.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\FirstCSharp\obj\Debug\netcoreapp2.0\FirstCSharp.pdb

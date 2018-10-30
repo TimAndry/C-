@@ -1,0 +1,11 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\bin\Debug\netcoreapp2.0\ViewModelFun.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\bin\Debug\netcoreapp2.0\ViewModelFun.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\bin\Debug\netcoreapp2.0\ViewModelFun.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\bin\Debug\netcoreapp2.0\ViewModelFun.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\bin\Debug\netcoreapp2.0\ViewModelFun.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\obj\Debug\netcoreapp2.0\ViewModelFun.csprojResolveAssemblyReference.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\obj\Debug\netcoreapp2.0\ViewModelFun.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\obj\Debug\netcoreapp2.0\ViewModelFun.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\obj\Debug\netcoreapp2.0\ViewModelFun.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\obj\Debug\netcoreapp2.0\ViewModelFun.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\ViewModelFun\obj\Debug\netcoreapp2.0\ViewModelFun.pdb

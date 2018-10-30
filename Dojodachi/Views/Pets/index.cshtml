@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Dojodachi!</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper">
+        <h3>@ViewBag.gamestatus</h3>
+        <div id="stats">
+            <h4>Fullness: @ViewBag.fullness</h4>
+            <h4>Happiness: @ViewBag.happiness</h4>
+            <h4>Meals: @ViewBag.meals</h4>
+            <h4>Energy: @ViewBag.energy</h4>
+        </div>
+        <div class="image">
+            <img src="~/img/rawlogo2.png">
+        </div>
+        <div id="actions">
+            <form action="feed" method="post">
+                <@ViewBag.play>Feed!</button>
+            </form>
+            <form action="play" method="post">
+                <@ViewBag.play>Play!</button>
+            </form>
+            <form action="work" method="post">
+                <@ViewBag.play>Work!</button>
+            </form>
+            <form action="sleep" method="post">
+                <@ViewBag.play>Sleep</button>
+            </form><br><br>
+            <form action="reset" method="post">
+                <@ViewBag.type><p>Reset</p></button>
+            </form>
+        </div>
+        <h3>Pet info: <span class="status">@ViewBag.status</span></h3>
+
+    </body>
+</html>

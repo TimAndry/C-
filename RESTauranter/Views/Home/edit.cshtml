@@ -1,0 +1,25 @@
+@model Restaurant
+
+<h1>Edit @ViewBag.review.ReviewerName's review for @ViewBag.review.RestaurantName</h1><br><br>
+<form asp-action="update" asp-controller="Home" method="post">
+
+    <input asp-for="Id" value="@ViewBag.review.Id" type="hidden">
+
+    <input asp-for="ReviewerName" value="@ViewBag.review.ReviewerName" type="hidden">
+    
+    <input asp-for="RestaurantName" value="@ViewBag.review.RestaurantName" type="hidden">
+    
+    <label asp-for="ReviewDate"></label>
+    <input type="date" asp-for="ReviewDate" value="@ViewBag.review.ReviewDate">
+    <span asp-validation-for="ReviewDate" class="error"></span><br><br>
+
+    <label asp-for="StarRating"></label>
+    <input asp-for="StarRating" value="@ViewBag.review.StarRating">
+    <span asp-validation-for="StarRating" class="error"></span><br><br>
+
+    <label asp-for="ReviewComment"></label>
+    <textarea asp-for="ReviewComment" rows="5" cols="50"><p>@ViewBag.review.ReviewComment</p></textarea>
+    <span asp-validation-for="ReviewComment" class="error"></span><br><br>
+
+    <button type="submit">Update</button>
+</form><br><br>

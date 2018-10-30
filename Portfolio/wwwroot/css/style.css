@@ -1,0 +1,26 @@
+nav{
+    margin: auto;
+    text-align: center;
+    width: 80%
+}
+
+h1{
+    text-align: center;
+}
+
+#wrapper{
+    margin: auto;
+    width: 50%;
+}
+
+.left{
+    margin: auto;
+    width: 48%;
+    display: inline-block;
+}
+
+.right{
+    margin: auto;
+    width: 48%;
+    display: inline-block;
+}

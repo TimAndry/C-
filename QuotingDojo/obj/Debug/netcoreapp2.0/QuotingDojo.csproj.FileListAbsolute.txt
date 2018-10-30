@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\bin\Debug\netcoreapp2.0\QuotingDojo.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\bin\Debug\netcoreapp2.0\QuotingDojo.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\bin\Debug\netcoreapp2.0\QuotingDojo.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\bin\Debug\netcoreapp2.0\QuotingDojo.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\bin\Debug\netcoreapp2.0\QuotingDojo.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\obj\Debug\netcoreapp2.0\QuotingDojo.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\obj\Debug\netcoreapp2.0\QuotingDojo.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\obj\Debug\netcoreapp2.0\QuotingDojo.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\obj\Debug\netcoreapp2.0\QuotingDojo.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\QuotingDojo\obj\Debug\netcoreapp2.0\QuotingDojo.pdb

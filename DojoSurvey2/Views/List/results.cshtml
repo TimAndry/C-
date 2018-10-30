@@ -1,0 +1,18 @@
+@model RazorFun.Survey
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper">
+        <h1>Submitted Info</h1>
+        <h3>@Model.Name</h3>
+        <h3>@Model.Location</h3>
+        <h3>@Model.Language</h3>
+        <h4>@Model.Comment</h4>
+    </body>
+</html>

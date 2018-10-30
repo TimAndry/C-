@@ -1,0 +1,28 @@
+@model Wedding
+
+<div id="wrapper">
+    <h1>Plan Your Wedding</h1>
+    <br><br><br>
+
+    <form asp-action="AWedding" asp-controller="Home" method="POST">
+        <input type="hidden" value="@ViewBag.UserID">
+
+        <label asp-for="WedderOne"></label>
+        <input asp-for="WedderOne">
+        <span asp-validation-for="WedderOne" class="error"></span><br><br>
+            
+        <label asp-for="WedderTwo"></label>
+        <input asp-for="WedderTwo">
+        <span asp-validation-for="WedderTwo" class="error"></span><br><br>
+            
+        <label asp-for="WeddingDate"></label>
+        <input type="date" asp-for="WeddingDate">
+        <span asp-validation-for="WeddingDate" class="error"></span><br><br>
+
+        <label asp-for="WeddingAddress"></label>
+        <input asp-for="WeddingAddress">
+        <span asp-validation-for="WeddingAddress" class="error"></span><br><br>
+
+        <button type="submit">Create</button>
+    </form>
+</div>

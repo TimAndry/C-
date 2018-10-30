@@ -1,0 +1,33 @@
+@model User
+
+<div id="wrapper">
+    <div class="Registration">
+        <h2>Edit Information</h2><br>
+        <form asp-action="Update" asp-controller="Home" method="post">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName" value="@ViewBag.User.FirstName"><br>
+            <span asp-validation-for="FirstName" class="error"></span><br><br>
+            
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName" value="@ViewBag.User.LastName"><br>
+            <span asp-validation-for="LastName" class="error"></span><br><br>
+            
+            <label asp-for="Email"></label>
+            <input type="email" asp-for="Email" value="@ViewBag.User.Email"><br>
+            <span asp-validation-for="Email" class="error"></span>
+            <p class="error">@ViewBag.EmailErrors</p>
+            <br>
+
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password"><br>
+            <span asp-validation-for="Password" class="error"></span><br><br>
+
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword" type="password">
+            <p class="error">@ViewBag.PassErrors</p><br>
+            <span asp-validation-for="ConfirmPassword" class="error"></span><br><br>
+
+            <button type="submit">Update</button>
+        </form>
+    </div>
+</div>

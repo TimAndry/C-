@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\bin\Debug\netcoreapp2.0\MultiplicationTable.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\MultiplicationTable\obj\Debug\netcoreapp2.0\MultiplicationTable.pdb

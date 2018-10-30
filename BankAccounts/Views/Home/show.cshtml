@@ -1,0 +1,54 @@
+@model Transaction
+
+<h1 class="head">Dojo Banking</h1>
+<a asp-action="Logout"><button type="submit">Logout</button></a>
+
+<h1>Hello, @ViewBag.User.FirstName </h1>
+<a asp-action="Edit"><button>Edit Info</button></a>
+<p class="error">@ViewBag.Failure</p>
+<p class="success">@ViewBag.Success</p>
+<br>
+<h4>Your current balance is: $@ViewBag.User.Balance</h4><br>
+
+<form asp-action="AddMoney" asp-controller="Home" method="post">    
+    <label asp-for="Deposit"></label>
+    <input asp-for="Deposit" value=0/><br><br>
+
+    <label asp-for="Withdrawl"></label>
+    <input asp-for="Withdrawl" value=0/><br><br>
+
+    <button type="submit">Complete</button>
+</form>
+<br><br>
+@{
+    int count = 0;
+    foreach(var number in ViewBag.Transactions){
+        count++;
+    }
+    @if(count > 0){
+        <h3>Transactions</h3>
+        <a asp-action="Delete"><button>Delete recent history</button></a><br><br>
+        <table class="table">
+            <thead>
+                <th>Date</th>
+                <th>Deposit</th>
+                <th>Withdrawl</th>
+            </thead>
+
+            <tbody>
+                @{
+                    foreach(var Thing in ViewBag.Transactions){
+                        <tr>
+                            <td>@Thing.Date</td>
+                            <td class="success">@Thing.Deposit</td>
+                            <td class="error">-@Thing.Withdrawl</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    }
+    else{
+        <h1 class="error">NO RECENT TRANSACTIONS</h1>
+    }
+}

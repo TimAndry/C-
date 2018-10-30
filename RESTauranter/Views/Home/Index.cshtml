@@ -1,0 +1,49 @@
+﻿@model Restaurant
+
+<h1>RESTauranter</h1><br>
+<form asp-action="create" asp-controller="Home" method="post">
+    <label asp-for="ReviewerName"></label>
+    <input asp-for="ReviewerName">
+    <span asp-validation-for="ReviewerName" class="error"></span><br><br>
+    
+    <label asp-for="RestaurantName"></label>
+    <input asp-for="RestaurantName">
+    <span asp-validation-for="RestaurantName" class="error"></span><br><br>
+    
+    <label asp-for="ReviewDate"></label>
+    <input type="date" asp-for="ReviewDate">
+    <span asp-validation-for="ReviewDate" class="error"></span><br><br>
+
+    <label asp-for="StarRating"></label>
+    <input asp-for="StarRating">
+    <span asp-validation-for="StarRating" class="error"></span><br><br>
+
+    <label asp-for="ReviewComment"></label>
+    <textarea asp-for="ReviewComment" rows="5" cols="50"></textarea>
+    <span asp-validation-for="ReviewComment" class="error"></span><br><br>
+
+    <button type="submit">Add</button>
+</form><br><br>
+<table class="table">
+    <thead>
+        <th>Restaurant Name</th>
+        <th>Review Date</th>
+        <th>Reviewer Name</th>
+        <th>Star Rating</th>        
+    </thead>
+    @{
+        foreach(var review in ViewBag.restaurants){
+        <tr>
+            <td>@review.RestaurantName</td>
+            <td>@review.ReviewDate</td>
+            <td>@review.ReviewerName</td>
+            <td>@review.StarRating Stars</td>
+            <td>
+                <a asp-action="Show" asp-route-id="@review.Id">show</a>
+                <a asp-action="Edit" asp-route-id="@review.Id">edit</a>
+                <a asp-action="Delete" asp-route-id="@review.Id">delete</a>
+            </td>
+        </tr>
+        }
+    }
+</table>

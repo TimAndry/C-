@@ -1,0 +1,17 @@
+﻿@model Quote
+
+<h1>Hello World!</h1><br><br>
+@{
+    foreach(Dictionary<string, object> quote in @ViewBag.AllQuotes){
+        <h4>@quote["name"]</h4>
+        <p>"@quote["quote"]" at @quote["createdat"]</p>
+
+        <br>
+    }
+}
+
+<form action="addquote" method="post">
+    Name: <input type="text" name="Name"><br><br>
+    Quote: <textarea rows="5" cols="60" name="QuoteText"></textarea><br><br>
+    <button type="submit">Submit</button>
+</form>

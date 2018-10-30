@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\obj\Debug\netcoreapp2.0\CollectionPractice.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\obj\Debug\netcoreapp2.0\CollectionPractice.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\obj\Debug\netcoreapp2.0\CollectionPractice.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\bin\Debug\netcoreapp2.0\CollectionPractice.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\bin\Debug\netcoreapp2.0\CollectionPractice.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\bin\Debug\netcoreapp2.0\CollectionPractice.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\bin\Debug\netcoreapp2.0\CollectionPractice.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\bin\Debug\netcoreapp2.0\CollectionPractice.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\obj\Debug\netcoreapp2.0\CollectionPractice.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\CollectionPractice\obj\Debug\netcoreapp2.0\CollectionPractice.pdb

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300");
+h1 {
+  font: 300 50px/1 Alegreya Sans, monospace;
+  white-space: nowrap;
+  color: whitesmoke;
+}
+
+span {
+  display: inline-block;
+  -webkit-animation: stretch 2.5s cubic-bezier(0.4, 1.4, 0.75, 0.9) infinite;
+          animation: stretch 2.5s cubic-bezier(0.4, 1.4, 0.75, 0.9) infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+span:nth-of-type(1) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+span:nth-of-type(2) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+span:nth-of-type(3) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+span:nth-of-type(4) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+span:nth-of-type(5) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+span:nth-of-type(6) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+span:nth-of-type(7) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+span:nth-of-type(8) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+span:nth-of-type(9) {
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+}
+
+span:nth-of-type(10) {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+@-webkit-keyframes stretch {
+  5% {
+    -webkit-transform: scaleX(5000);
+            transform: scaleX(5000);
+    opacity: .1;
+  }
+  15% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+@keyframes stretch {
+  5% {
+    -webkit-transform: scaleX(5000);
+            transform: scaleX(5000);
+    opacity: .1;
+  }
+  15% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=laser.css.map */

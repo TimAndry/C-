@@ -1,0 +1,11 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.csprojResolveAssemblyReference.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\bin\Debug\netcoreapp2.0\LoginRegistration.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\LoginRegistration\obj\Debug\netcoreapp2.0\LoginRegistration.pdb

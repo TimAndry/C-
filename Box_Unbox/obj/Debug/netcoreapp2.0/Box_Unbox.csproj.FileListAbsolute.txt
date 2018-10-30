@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\obj\Debug\netcoreapp2.0\Box_Unbox.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\obj\Debug\netcoreapp2.0\Box_Unbox.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\obj\Debug\netcoreapp2.0\Box_Unbox.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\bin\Debug\netcoreapp2.0\Box_Unbox.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\bin\Debug\netcoreapp2.0\Box_Unbox.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\bin\Debug\netcoreapp2.0\Box_Unbox.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\bin\Debug\netcoreapp2.0\Box_Unbox.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\bin\Debug\netcoreapp2.0\Box_Unbox.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\obj\Debug\netcoreapp2.0\Box_Unbox.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\Box_Unbox\obj\Debug\netcoreapp2.0\Box_Unbox.pdb

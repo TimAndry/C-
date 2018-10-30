@@ -1,0 +1,14 @@
+@model RazorFun.User
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper"> 
+        <h1>Hello @Model.FirstName @Model.LastName</h1>
+    </body>
+</html>

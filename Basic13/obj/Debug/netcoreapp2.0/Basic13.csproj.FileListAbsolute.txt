@@ -1,0 +1,10 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\bin\Debug\netcoreapp2.0\Basic13.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\bin\Debug\netcoreapp2.0\Basic13.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\bin\Debug\netcoreapp2.0\Basic13.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\bin\Debug\netcoreapp2.0\Basic13.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\bin\Debug\netcoreapp2.0\Basic13.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\obj\Debug\netcoreapp2.0\Basic13.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\obj\Debug\netcoreapp2.0\Basic13.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\obj\Debug\netcoreapp2.0\Basic13.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\obj\Debug\netcoreapp2.0\Basic13.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\Basic13\obj\Debug\netcoreapp2.0\Basic13.pdb

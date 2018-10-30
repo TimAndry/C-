@@ -1,0 +1,11 @@
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\bin\Debug\netcoreapp2.0\Hello.deps.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\bin\Debug\netcoreapp2.0\Hello.runtimeconfig.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\bin\Debug\netcoreapp2.0\Hello.runtimeconfig.dev.json
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\bin\Debug\netcoreapp2.0\Hello.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\bin\Debug\netcoreapp2.0\Hello.pdb
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\obj\Debug\netcoreapp2.0\Hello.csprojResolveAssemblyReference.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\obj\Debug\netcoreapp2.0\Hello.csproj.CoreCompileInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\obj\Debug\netcoreapp2.0\Hello.AssemblyInfoInputs.cache
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\obj\Debug\netcoreapp2.0\Hello.AssemblyInfo.cs
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\obj\Debug\netcoreapp2.0\Hello.dll
+C:\Users\Timot\OneDrive\CodingDojo\C#\Hello\obj\Debug\netcoreapp2.0\Hello.pdb

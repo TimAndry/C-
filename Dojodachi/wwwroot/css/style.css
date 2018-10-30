@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+
+#wrapper{
+    margin: auto;
+    width: 60%;
+    margin-top: 10%;
+}
+
+#stats{
+    margin:auto;
+    display: block;
+    text-align: center;
+}
+
+#stats h4{
+    margin: auto;
+    display: inline-block;
+    width: 23%;
+}
+
+#actions form{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+}
+
+.status{
+    color: red;
+    font-size: 0.7em;
+}
+
+input{
+    color: white;
+}
+
+form p{
+    color: white;
+}
+
+.image{
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    display: block;
+}
+
+.image img{
+    height: 150px;
+    width: 100px;
+}

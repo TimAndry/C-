@@ -1,0 +1,19 @@
+@model RazorFun.Users
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper">
+        <h1>Here is an array of users!</h1>
+        @{
+            foreach(var user in @Model.users){
+                 <p>@user</p>
+            }
+        }
+    </body>
+</html>

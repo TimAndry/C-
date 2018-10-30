@@ -1,0 +1,1645 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300);
+
+#wrapper {margin:0;
+          overflow: hidden;}
+
+body {background:#000000;}
+
+nav{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#canvas{
+  background-attachment: fixed; 
+  position: fixed;
+  top:0; 
+  left:0;
+  z-index: -110;
+}
+
+#intro{
+  height: 900px;
+}
+
+#text {
+  position: absolute;
+  display: block;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  line-height: 60px;
+  font-family: "Roboto Condensed";
+  text-align: right;
+  letter-spacing: 0.15em;
+  opacity: 0.9;
+}
+#text span {
+  color:#fff;
+}
+
+#landing{
+    height: 100%;
+    width: 100%;
+}
+
+#landingvideo{
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -20;
+    min-height: 100%;
+    min-width: 100%;    
+}
+
+
+
+.randomizer{
+  opacity: 1;
+}
+
+#messenger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+  font-size: 25px;
+  white-space: nowrap;
+  text-shadow: 0 2px 2px rgba(#000, 0.9);
+  margin-top: 50px;
+  opacity: 0.9;
+  color: white;
+}
+
+.pbtn {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  height: 50px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  white-space: nowrap;
+  text-shadow: 0 2px 2px rgba(#000, 0.9);
+  margin-top: 50px;
+  opacity: 0.9;
+  font-family: "Roboto Condensed";
+  letter-spacing: 0.2em;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.pbtn:hover{
+  box-shadow: 0px 2px 25px white;
+  text-shadow: 0px 3px 25px white;
+  opacity: 0.96;
+}
+
+.pbtn2{
+  margin: 20px 0 0 42.7%;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 175px;
+  font-family: "Roboto Condensed";
+  letter-spacing: 0.2em;
+  border: 3px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.pbtn3{
+  margin: 20px 0 0 42.7%;
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "Roboto Condensed";
+  letter-spacing: 0.2em;
+  border-radius: 3px;
+  background-color: rgb(20,20,20,0.3);
+  transition: all 0.3s ease-in-out;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+
+.pbtn3:hover{
+  background-color: rgb(255, 255, 255, .80);
+  color: black;
+}
+
+.menu_white{
+  color: white;
+}
+
+.menu_black{
+  color: #555;
+}
+
+#white_div{
+  display: inline-block;
+  width: 70%;
+}
+
+#socialmedia{
+  position: fixed;
+  top: 1%;
+  right: 8%;
+  width: 25%;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 3%;
+}
+
+#socialmedia img{
+  display: inline-block;
+  width: 75px;
+  margin-left: 20px;
+  height: 52px;
+  width: 52px;
+  opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+}
+
+#showImage1, #showImage2, #showImage3{
+  border: 0px solid white;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+#showImage1:hover, #showImage2:hover, #showImage3:hover{
+  box-shadow: 0 3px 25px white;
+}
+
+#socialmedia img:hover{
+  opacity: 0.8;
+}
+
+#about {
+  display: block;
+  margin: auto;
+  margin-bottom: 200px;
+  height: 80%;
+  width: 90%;
+  font-family: "Roboto Condensed";
+}
+
+#about h3{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+#about p{
+  font-size: 1.1em;
+}
+
+.atitle{
+  text-align: center;
+  padding-top: 10%;
+  font-family: "Roboto Condensed";
+  color: rgb(255, 255, 255, .85);
+  font-size: 4em;
+  font-weight: bolder;
+}
+
+nav2{
+  margin-top: 100px;
+}
+
+.smallupper{
+  font-size: .8em;
+}
+
+.aboutcontent{
+  margin: auto;
+  min-width: 1560px;
+  color: white;
+  opacity: 0.88;
+  letter-spacing: .12em;
+  margin-bottom: 50px;
+  background-size: 130%;
+}
+
+.aboutimages{
+  margin: auto;
+  margin-top: 55px;
+  margin-left: 150px;
+  text-align: left;
+  width: 38%;
+  display: inline-block;
+}
+
+.aimg{
+  display: block;
+  padding: 3%;
+  margin-bottom: 20px;
+  height: 195px;
+  padding-left: 35px;
+}
+
+.aimg img{
+  display: inline-block;
+  vertical-align: top;
+  height: 110px;
+  width: 110px;
+  margin: 15px 15px 0px 0;
+  opacity: 0.9;
+}
+
+.atext{
+  display: inline-block;
+  width: 42%
+}
+
+
+#about img{
+  display: inline-block;
+}
+
+
+#chart{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+#chart h2{
+  margin-left: 100px;
+  margin-bottom: 35px;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.25em;
+}
+
+.section2 {
+  margin: auto;
+  text-align: center;
+  height: 450px;
+  width: 175px;
+  display: inline-block;
+  margin-left: 60px;
+  border: 1px solid rgb(255,255,255,0.3);
+  border-radius: 2px;
+  box-shadow: 0 3px 10px white;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.15em;
+  transition: all 0.2s ease-in-out;
+}
+
+.section2:hover{
+  background-color: rgb(255,255,255,0.3);
+}
+
+.section2 img{
+  margin-top: 15px;
+  margin-bottom: 5px;
+  height: 60px;
+  width: 60px;
+  vertical-align: top;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.section2 canvas{
+  margin-top: 75px;
+}
+
+.section2 h3{
+  margin-bottom: 40px;
+  font-size: 2em;
+  text-align: center;
+  margin-left: 0;
+}
+
+.section2 p{
+  padding-bottom: 15px;
+}
+
+#about button{
+  border: 2px solid white;
+  opacity: 0.7;
+}
+
+#about button:hover{
+  box-shadow: 0px 3px 25px white;
+}
+
+#about button:focus{
+  outline: none;
+  box-shadow: 0px 3px 25px white;
+}
+
+
+#nav2{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#projects{
+  margin: auto;
+  margin-bottom: 150px;
+  width: 80%;
+  color: white;
+  height: 800px;
+  background-color: rgb(255,255,255,0);
+  -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    transition:all 1s;
+}
+
+
+.projects{
+  position: absolute;
+  display: inline-block;
+  height: 700px;
+  width: 20%;
+  min-width: 350px;
+  margin: auto;
+  margin: 2%;
+  margin-top: 0;
+  border-radius: 2px;
+}
+
+.projects h2{
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.3em;
+  font-size: 2em;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-size: 1.4em;
+}
+
+.project1{
+  margin: auto;
+  width: 80%;
+  background-color: rgb(255,255,255,0.9);
+  height: 250px;
+  margin-top: 10px;  
+  margin-bottom: 30px ;
+}
+
+.project1 img{
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+
+.github1{
+  margin: auto;
+  width: 80%;
+  background-color: rgb(255,255,255,0.9);
+  height: 250px;
+  margin-top: 10px;  
+  margin-bottom: 30px ;
+}
+
+.github1 img{
+  margin: auto;
+  width: 100%;
+  height: 250px;
+}
+
+.text-glow{
+  text-shadow: 0px 0px 0px white;
+}
+
+#headline3{
+  padding-top: 70px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  width: 350px;
+  -webkit-transition:all .2s ease-in-out;
+    -moz-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+}
+
+#headline3:hover{
+  text-shadow: 0px 2px 10px white;
+  letter-spacing: .5em;
+}
+
+#contact{
+  margin: auto;
+  padding-top: 50px;
+  width: 80%;
+  height: 900px;
+}
+
+#contact h1{
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.3em;
+  font-size: 2.5em;
+}
+
+/* Experimental div carousel */
+
+#circle{
+  margin: auto;
+  position: relative;
+  top: 20%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(20,20,20,0.6);
+  filter: drop-shadow(0 0 50px white);
+  box-shadow: inset 0px 0px 30px 15px rgb(9, 9, 9);
+  border-radius: 50%;
+  z-index: 1002;
+  pointer-events: none;
+}
+
+#circle2{
+  margin: auto;
+  position: relative;
+  top: -4%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(0,0,0,0);
+  border-radius: 50%;
+  z-index: 1003;
+}
+
+#iris{
+  margin: auto;
+  position: relative;
+  top: 30%;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transform: translateX(50px) translateY(-33px) skewX(23deg) skewY(2deg);
+  background: radial-gradient(circle at 50% 50%, #860000 0%, #db0000 30%, #ff2626 50%);
+  filter: drop-shadow(1px 1px 5px white);
+}
+
+#pupil{
+  margin: auto;
+  position: relative;
+  top: 30%;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: red;
+  opacity: 0.7
+}
+
+
+form{
+  position: absolute;
+  margin-top: -100px;
+}
+
+label{
+  color:white;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+input{
+  outline:0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 7px black;
+  height: 30px;
+  padding: 2px;
+  transition: all 0.5s ease-in-out;
+  background-color:rgb(126, 0, 0);
+}
+
+input:hover{
+  background-color: white;
+}
+
+input:focus{
+  outline:0;
+  background-color: rgb(0,0,0,0.2);
+  color: white;
+  border: none;
+  filter: drop-shadow(0 0 30px 10px white);
+  box-shadow: inset 0px 1px 20px white;
+}
+
+textarea{
+  border-radius: 5px;
+}
+
+#fname{
+  width: 220px;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 670px;
+  display: none;
+}
+
+#lname{
+  width: 220px;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 670px;
+  display: none;
+}
+
+#email{
+  width: 220px;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 670px;
+  display: none;
+  z-index: 1003;
+}
+
+#comment{
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 620px;
+  display: none;
+  z-index: 1004;
+}
+
+#submit{
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 730px;
+  display: none;
+  z-index: 998;
+  border: none;
+}
+
+#contactbtn{
+  width: 170px;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  margin-top: -270px;
+  margin-left: 860px;
+  border: none;
+}
+
+
+/* End of experiment */
+
+
+@media only screen and (max-width: 1400px){
+  .pbtn{
+    margin-top: 60px;
+  }
+
+  .pbtn3:focus{
+    outline: none;
+  }
+
+  .atext{
+    display: inline-block;
+    width: 250px;
+  }
+
+  .aboutcontent{
+    margin: auto;
+    margin-left: 0px;
+    text-align: center;
+    min-width: 1074px;
+  }
+  
+  .aimg{
+    display: block;
+    padding: 3%;
+    margin-bottom: 20px;
+    height: 125px;
+    padding-left: 60px;
+    min-width: 600px;
+  }
+  .aimg img{
+    display: inline-block;
+    vertical-align: top;
+    height: 65px;
+    width: 80px;
+    margin: 15px 15px 0px 0
+  }
+  .section2 {
+    margin: auto;
+    text-align: center;
+    height: 340px;
+    width: 120px;
+    display: inline-block;
+    margin-left: 60px;
+  }
+  
+  .section2 img{
+    height: 50px;
+    width: 50px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .section2 canvas{
+    margin-top: 60px;
+  }
+
+  .section2 h3{
+    margin-bottom: 20px;
+  }
+
+  .section2 p{
+    padding-bottom: 9px;
+  }
+
+  #chart{
+    margin-left: 0px;
+  }
+
+  #chart h2{
+    margin-left: 50px;
+    margin-bottom: 25px;
+    font-family: "Cutive Mono", monospace;
+    letter-spacing: 0.25em;
+    font-size: 1.53em;
+  }
+  
+  .aboutimages{
+    margin-left: 0px;
+  }
+
+  .pbtn2{
+    margin: 20px 0 0 45%;
+    width: 120px;
+  }
+
+  .projects{
+    position: absolute;
+    display: inline-block;
+    height: 700px;
+    width: 22%;
+    min-width: 0;
+    background:none;
+    margin: auto;
+    margin: 2%;
+    border-radius: 2px;
+  }
+  
+  #fname{
+    width: 220px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 570px;
+    display: none;
+  }
+  
+  #lname{
+    width: 220px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 570px;
+    display: none;
+  }
+  
+  #email{
+    width: 220px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 470px;
+    display: none;
+  }
+  
+  #comment{
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 420px;
+    display: none;
+  }
+  
+  #submit{
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 530px;
+    display: none;
+  }
+  
+  #contactbtn{
+    width: 170px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 620px;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  #landingvideo{
+    display: hidden;
+  }
+  #text{
+  font-size: 53px;
+  line-height: 53px;
+  font-family: "Roboto Condensed";
+  text-align: right;
+  letter-spacing: 0.1em;
+  }
+
+  #messenger{
+    font-size: 22px;
+    margin-top: 45px;
+  }
+
+  .pbtn{
+    margin-top: 30px;
+  }
+
+  #about nav button{
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  #nav2{
+    position: fixed;
+    top: 50px;
+    left: 45px;
+  }
+  #headline1{
+    font-size: 2em;
+    margin-left: 40px;
+  }
+  #socialmedia{
+    min-width: 250px;
+    display: none;
+  }
+
+  #navbutton{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    margin-bottom: 3%;
+  }
+
+  #smallnav li{
+    margin-top: 2%;
+  }
+
+  #navbarNav{
+    margin-top: 6%;
+    margin-left: -5%;
+  }
+
+  #smallnav button{
+    visibility: hidden;
+  }
+
+  .socialmedia{
+    display: none;
+  }
+ 
+}
+
+@media only screen and (max-width: 1024px){
+  .aboutcontent{
+    margin: auto;
+    margin-left: 0px;
+    text-align: center;
+    min-width: 500px;
+  }
+
+  #intro{
+    height: 1400px;
+  }
+
+  #about{
+    margin-top: 120px;
+  }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  #landingvideo{
+    display: hidden;
+  }
+  #text{
+    font-size: 40px;
+  line-height: 40px;
+  font-family: "Roboto Condensed";
+  text-align: right;
+  letter-spacing: 0.1em;
+  }
+
+  #messenger{
+    font-size: 20px;
+    margin-top: 35px;
+  }
+
+  .pbtn{
+    margin-top: 25px;
+  }
+  .aboutimages{
+    margin-top: 4vh;
+  }
+  
+  #smallnav li{
+    display: block;
+  }
+
+  #smallnav button{
+    visibility: hidden;
+  }
+
+  #intro{
+    height: 900px;
+  }
+
+  .projects{
+    position: relative;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  
+
+  #headline1{
+    font-size: 1.8em;
+  }
+
+  #headline2{
+    font-size: 1.8em;
+  }
+
+  #about nav{
+    z-index:999;
+    margin-left: 75%;
+    top: 20px;
+  }
+
+
+  #about nav li{
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-left: -50%;
+  }
+
+ 
+  #text{
+    font-size: 30px;
+  line-height: 30px;
+  font-family: "Roboto Condensed";
+  text-align: right;
+  letter-spacing: 0.1em;
+  }
+
+  #messenger{
+    font-size: 18px;
+    margin-top: 23px;
+  }
+
+  .pbtn{
+    margin-top: 20px;
+  }
+
+  .aboutimages{
+    margin-top: 4vh;
+    display: block;
+    width: 90%;
+    height: 320px;
+    min-width: 700px;
+  }
+
+
+  .aimg{
+    display: inline-block;
+    width: 210px;
+    min-width: 210px;
+    vertical-align: top;
+  }
+
+  .aimg img{
+    margin: auto;
+    margin-left: 30%;
+    display: block;
+  }
+
+  .atext{
+    width: 130%;
+    text-align: center;
+  }
+
+  #chart{
+    width: 675px;
+    min-width: 0px;
+    margin-left: 0px;
+    display: block;
+    margin-top: 75px;
+  }
+
+  #chart h2{
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
+  
+  .section2{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #about{
+    margin-bottom: 350px;
+  }
+
+  .pbtn2{
+    margin: 20px 0 0 41%;
+    width: 120px;
+  }
+
+  #projects{
+    height: 1000px;
+  }
+
+  .projects{
+    display: block;
+    height: 275px;
+    width: 100%;
+    min-width: 350px;
+    background:none;
+    margin: auto;
+    margin: 2%;
+    padding-top: 10px;
+  }
+
+  .projects h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .project1{
+    margin: auto;
+    width: 35%;
+    background-color: none;
+    height: 175px;
+    margin-top: 10px;  
+    margin-bottom: 15px;
+    margin-left: 15%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .project1 img{
+    margin: auto;
+    width: 40%;
+    height: 175px;
+    width: 175px;
+  }
+  
+  .github1{
+    margin: auto;
+    display: inline-block;
+    width: 35%;
+    background-color:none;
+    height: 175px;
+    width: 175;
+    margin-top: 10px;  
+    margin-bottom: 30px ;
+  }
+
+  
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  #about nav button{
+    visibility: visible;
+  }
+
+  #about nav li{
+    font-size: 0.8em;
+  }
+
+  #headline1{
+    font-size: 1.3em;
+  }
+
+  #about{
+    margin-bottom: 600px;
+  }
+
+  #about nav{
+    margin-left: 70%;
+    top:15px;
+  }
+
+  #landingvideo{
+    display: hidden;
+  }
+  #text{
+    font-size: 22px;
+  line-height: 22px;
+  font-family: "Roboto Condensed";
+  text-align: right;
+  letter-spacing: 0.1em;
+  }
+
+  #messenger{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .pbtn{
+    margin-top: 10px;
+  }
+
+  .atitle{
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+
+  .aboutimages{
+    margin-top: 1vh;
+    display: block;
+    text-align: left;
+  }
+
+  .aimg{
+    display: block;
+    width: 450px;
+    
+  }
+
+  .aimg img{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 10px;
+    vertical-align: bottom;
+  }
+
+  .atext{
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+  }
+
+  #smallnav button{
+    margin-left: 80%;
+  }
+
+  .aboutimages{
+    margin-top: 4vh;
+    display: block;
+    height: 460px;
+  }
+
+  #smallnav button{
+    visibility: visible;
+    margin-left: 75%;
+  }
+
+  #smallnav li{
+    margin-left: 70%;
+    text-align: right;
+  }
+
+  #chart{
+    margin-top: 150px;
+    display: block;
+    width: 400px;
+  }
+
+  #chart h2{
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+
+  .section2{
+    margin-left: 25px;
+    width:100px;
+    height: 340px;
+    vertical-align: top;
+  }
+
+  .section2 img{
+    height: 50px;
+    width: 50px;
+  }
+
+  
+  #headline2{
+    font-size: 1.3em;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .section2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .pbtn2{
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+  .projects{
+    position: absolute;
+    display: inline-block;
+    height: 700px;
+    width: 27%;
+    min-width: 350px;
+    background:none;
+    margin: auto;
+    margin: 2%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  
+  .projects h2{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 100px;
+    display: inline-block;
+  }
+
+  #pid{
+    width: 100px;
+  }
+  
+  #mid{
+    width: 100px;
+  }
+
+  #aid{
+    width: 100px;
+  }
+
+  .project1{
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    margin-top: 10px;  
+    margin-bottom: 30px ;
+    margin-left: 10%;
+    
+  }
+  
+  .project1 img{
+    margin: auto;
+    width: 100%;
+    height: 250px;
+  }
+  
+  .github1{
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    margin-top: 10px;  
+    margin-bottom: 30px;
+    margin-left: 10%;
+  }
+
+
+  #p2 h2{
+    margin-left: 45%;
+  }
+
+  #p3 h2{
+    margin-left: 72%;
+  }
+
+  #stacks h3{
+    display: inline-block;
+    width: 90px;
+    font-size: 1.3em;
+    margin-left: 3%;
+  }
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+#about{
+  height: 550px;
+}
+
+
+
+  #headline1{
+    font-size: 1em;
+  }
+
+  #text{
+    font-size: 15px;
+  }
+
+  .pbtn{
+    padding: 2px;
+    font-size: .8em;
+    width: 100px;
+    border: 2px solid white;
+  }
+
+  .atitle{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .aboutimages{
+    margin-top: 1vh;
+    display: block;
+    text-align: left;
+  }
+
+  .aimg{
+    display: block;
+    width: 400px;
+    margin-left:0;
+    padding-left: 5px
+  }
+
+  #about .atext h3{
+    font-size: 1em;
+  }
+
+  #about .atext p{
+    font-size: 0.8em;
+  }
+
+  .aimg img{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .atext{
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+  }
+
+  button{
+    margin-left: 0;
+  }
+
+  #chart{
+    margin-top: 100px;
+    margin-left: 1%;
+    display: block;
+    width: 300px;
+  }
+
+  #chart h2{
+    font-size: 1em;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+
+  .section2{
+    width: 75px;
+    height: 250px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .section2 img{
+    height: 30px;
+    width: 30px;
+  }
+
+  #about #chart .section2 p{
+    font-size: 0.7em;
+  }
+
+  
+  #headline2{
+    font-size: 1em;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  
+  .pbtn2{
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+  #about nav{
+    margin-left: 65%;
+  }
+
+  #projects{
+    width: 200px;;
+    color: white;
+  }
+
+  .projects{
+    position: relative;
+    display: block;
+    width: 200px;
+    min-width: 100px;
+    height: 500px;
+  }
+
+  .projects img{
+    height: 160px;
+    width: 160px;
+  }
+
+  .project1{
+    height: 150px;
+  }
+
+  .github1{
+    height: 150px;
+  }
+
+  #stacks{
+    width: 300px;
+    margin-left: 8%;
+  }
+
+  #stacks h3{
+    display: inline-block;
+    width: 60px;
+    font-size: 1.1em;
+    margin-left: 3%;
+  }
+
+  #headline3{
+    pointer-events: none;
+  }
+
+}
+
+@media only screen and (max-width: 414px){
+  .atitle{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .aboutimages{
+    margin-top: 1vh;
+    display: block;
+    text-align: left;
+  }
+
+  .aimg{
+    display: block;
+    width: 400px;
+    margin-left:5%;
+    padding-left: 5px
+  }
+
+  #about .atext h3{
+    font-size: 1em;
+  }
+
+  #about .atext p{
+    font-size: 0.8em;
+  }
+
+  .aimg img{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+  }
+
+  #chart{
+    margin-left: 3%;
+  }
+
+  #about nav{
+    margin-left: 75%;
+  }
+
+  #navbarNav{
+    margin-left: -70%;
+    margin-top: 20%;
+  }
+
+  #about nav li{
+    margin-left: 0px;
+  }
+
+  #projects{
+    margin-left: 0px;
+  }
+
+  #headline3{
+    margin-left: 20px;
+    font-size: 1.3em;
+  }
+
+  #projects .projects{
+    margin-left: 52%;
+    height: 470px;
+  }
+
+  #projects .projects h2{
+    padding-top: 14px;
+  }
+  
+}
+
+@media only screen and (max-width: 411px){
+  #chart{
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .atitle{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .aboutimages{
+    margin-top: 1vh;
+    display: block;
+    text-align: left;
+  }
+
+  .aimg{
+    display: block;
+    width: 400px;
+    margin-left:4%;
+    padding-left: 5px
+  }
+
+  #about .atext h3{
+    font-size: 1em;
+  }
+
+  #about .atext p{
+    font-size: 0.8em;
+  }
+
+  .aimg img{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+  }
+
+  #chart{
+    margin-left: 2%;
+  }
+
+  #chart h2{
+    margin-left: 10px;
+  }
+
+  #about nav{
+    margin-left: 75%;
+  }
+
+  #navbarNav{
+    margin-left: -70%;
+    margin-top: 20%;
+  }
+
+  #about nav li{
+    margin-left: 0px;
+  }
+
+  #projects{
+    margin-left: 0px;
+  }
+
+  #headline3{
+    margin-left: 20px;
+    font-size: 1.3em;
+  }
+
+  #projects .projects{
+    margin-left: 45%;
+    height: 470px;
+  }
+
+  #projects .projects h2{
+    padding-top: 14px;
+  }
+}
+
+@media only screen and (max-width: 360px){
+
+}
+
+@media only screen and (max-width: 320px){
+  .atitle{
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+
+  .aboutimages{
+    margin-top: 1vh;
+    display: block;
+    text-align: left;
+  }
+
+  .aimg{
+    display: block;
+    width: 400px;
+    margin-left:1%;
+    padding-left: 5px
+  }
+
+  #about .atext h3{
+    font-size: 1em;
+  }
+
+  #about .atext p{
+    font-size: 0.8em;
+  }
+
+  .aimg img{
+    display: inline-block;
+    margin-left: 0;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+  }
+
+  #chart{
+    margin-left:0;
+  }
+
+  #chart h2{
+    margin-left: 10px;
+  }
+
+  #about nav{
+    margin-left: 70%;
+  }
+
+  #navbarNav{
+    margin-left: -70%;
+    margin-top: 20%;
+  }
+
+  #about nav li{
+    margin-left: 0px;
+  }
+
+  #projects{
+    margin-left: 0px;
+  }
+
+  #headline3{
+    margin-left: 20px;
+    font-size: 1.3em;
+  }
+
+  #projects .projects{
+    margin-left: 30%;
+    height: 470px;
+  }
+
+  #projects .projects h2{
+    padding-top: 14px;
+  }
+
+}

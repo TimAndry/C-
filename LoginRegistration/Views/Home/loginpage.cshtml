@@ -1,0 +1,17 @@
+@model User
+
+<div class="Login">
+    <h2>Login</h2><br>
+    <form asp-action="Login" asp-controller="Home" method="post">
+        <label asp-for="Email"></label>
+        <input type="email" asp-for="Email"><br><br>
+
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password"><br><br>
+            
+        <button type="submit">Login</button>
+    </form>    
+</div>
+<br><br><br>
+<h4>Back to registration</h4>
+<a href="/"><button type="submit">back</button></a>

@@ -1,0 +1,34 @@
+@model Survey
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper">
+        <h1>Dojo Survey</h1>
+        <form asp-action="results" asp-controller="List" method="post">
+            <!--The 'Name' input includes validation -->
+            <span asp-validation-for="Name" class="error"></span><br>
+            <label asp-for="Name"></label>
+            <input asp-for="Name"><br><br>
+
+            Dojo Location:<select name="Location">
+                <option value="San Jose">San Jose</option>
+                <option value="Burbank">Burbank</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Chicago">Chicago</option>
+            </select><br><br>
+            Favorite Language:<select name="Language">
+                <option value="C#">C#</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Other">Other</option>
+            </select><br><br>
+            <textarea rows="4" cols="50" name="Comment"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<div id="top">
+    <h1 class = "top">Dojo Activity Center</h1>
+    <nav>
+        <li><a asp-action="Show">Home</a></li>
+        <li><a asp-action="Logout">Logout</a></li>
+    </nav>
+</div>
+<h2>@ViewBag.Activity.Title</h2>
+<h4>The event is scheduled for @ViewBag.Activity.Date 
+@{
+    if(@ViewBag.SessionId == @ViewBag.Activity.UserId){
+        <a asp-action="Delete" asp-route-id="@ViewBag.Activity.ActivityId">Delete</a>
+    }
+}
+
+</h4>
+<br>
+<h4>Event Coordinator: @ViewBag.Activity.Coordinator</h4>
+<br>
+<h4>Description</h4>
+<p>@ViewBag.Activity.Description</p>
+<br>
+@{ int count=0;
+    bool rsvp = true;
+        foreach(var Activity in @ViewBag.Activities){
+            foreach(var guest in Activity.Users){
+                if(@ViewBag.SessionId == @guest.User.UserId){
+                        rsvp = false;
+                        
+                    }
+                }
+            }
+    
+}
+<br>
+<h4>Guests Attending:</h4>
+@{
+    foreach(var Activity in @ViewBag.Activities){
+        if(Activity.ActivityId == @ViewBag.Activity.ActivityId){
+            foreach(var guest in Activity.Users){
+                <p>@guest.User.FirstName @guest.User.LastName</p>
+                count++;
+            }
+        }
+    }
+    @if(rsvp == false && count > 0){
+            <a asp-action="UnReserve" asp-route-id="@ViewBag.Activity.ActivityId"><button type="submit">Leave</button></a>
+        }else{
+            <a asp-action="Reserve" asp-route-id="@ViewBag.Activity.ActivityId"><button type="submit">Join</button></a>
+    }
+}
+

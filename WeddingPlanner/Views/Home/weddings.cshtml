@@ -1,0 +1,50 @@
+@model User
+
+<a asp-action="Logout"><button type="submit">Logout</button></a>
+
+<h1>Weddings</h1>
+
+<table class="table">
+    <thead>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guest Reservations</th>
+        <th>Action</th>
+    </thead>
+
+    @{
+        foreach(var wedding in @ViewBag.weddings){
+            var count=0;
+            bool rsvp = true;
+            <tr>
+                <td><a asp-action="Show" asp-route-id="@wedding.WeddingId">@wedding.WedderOne and @wedding.WedderTwo</a></td>
+                <td>@wedding.WeddingDate</td>
+                <td>
+                    @foreach(var guest in wedding.Wedders){
+                        if(@ViewBag.SessionId == @guest.User.UserId){
+                            rsvp = false;
+                        }
+                        count++;
+                    }
+                    @count
+                </td>
+                <td>
+                    @if(rsvp == true){
+                        <a asp-action="Reserve" asp-route-id="@wedding.WeddingId">RSVP,</a>;
+                    }
+                    @if(rsvp == false){
+                        <a asp-action="UnReserve" asp-route-id="@wedding.WeddingId">un-RSVP,</a>
+                    }
+                    @if(@ViewBag.SessionId == @wedding.WeddingId){
+                        <a asp-action="DeleteReserve" asp-route-id="@wedding.WeddingId">Delete,</a>
+                    } 
+                     @wedding.WeddingId
+                </td>
+            </tr>
+        }
+    }
+
+
+</table>
+
+<a href="newwedding"><button type="submit">New Wedding</button></a>

@@ -1,0 +1,187 @@
+﻿@model Contact
+
+<div id="wrapper">
+  <div id="smallnav">
+    <div class="mast">
+      <header class="mast__header">
+          <h1 class="mast__title js-spanize" id="headline1">Incoming Transmission</h1>
+      </header>
+    </div>
+  </div>
+
+
+  <div id="white_div">
+    <canvas id="canvas"></canvas>
+	  <div id="buffer" style="display:none;"></div>
+    <!-- <video autoplay muted loop id="landingvideo">
+        <source src="~/videos/BlueHill.mp4" type="video/mp4">
+    </video> -->
+  </div>
+  <div id="socialmedia">
+    <img src="~/images/linkedin.png" title="LinedIn icon" alt="LinedIn icon" id="showImage1" style="display: none">
+    <img src="~/images/facebook.png" title="facebook icon" alt="facebook icon" id="showImage2" style="display: none">
+    <img src="~/images/twitter.png" title="twitter icon" alt="twitter icon" id="showImage3" style="display: none">
+  </div>
+
+
+
+
+
+<div id="intro">
+  <div id="text" style="display: none"><br><span>T</span><span>I</span><span>M</span><span>O</span><span>T</span><span>H</span><span>Y</span><span>&nbsp;</span><span>A</span><span>N</span><span>D</span><span>R</span><span>Y</span></div>
+  <div id="messenger" class="randomizer" style="display: none"></div>
+  <button href="#about" class="pbtn" id="plink" style="display: none">PORTFOLIO</button>
+</div>
+ 
+  <div id="about">
+      <nav class="navbar navbar-expand-lg navbar-light NavigationButton menu_white" id="nav2">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbutton" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul>
+              <a href="#about"><li id="showImage4">ABOUT</li></a>
+              <a href="#projects"><li id="showImage5" >PROJECTS</li></a>
+              <a href="#contact"><li id="showImage6" >CONTACT</li></a>
+              <a href="#wrapper"><li id="showImage7" >HOME</li></a>
+            </ul>
+          </div>
+        </nav>
+      <div>
+      <h1 id="headline2" class=" mast mast__header mast__title">Full Stack Development</h1>
+      <div class="aboutcontent">
+        <div class="aboutimages"> 
+          <div class="aimg" id="stimg">
+            <img src="~/images/database2.png" alt="integration of responsive design"  >
+            <div class="atext" id="1stext" >
+              <h3>DATABASE INTEGRATION</h3>
+              <p>Integration for databases from e-commerce to blog comments</p>
+            </div>
+          </div>
+          <div class="aimg" id="ndimg">
+            <img src="~/images/responsive2.png" alt="integration of responsive design"  >
+            <div class="atext" id="2ndtext" >
+              <h3>RESPONSIVE DESIGN</h3>
+              <p>Responsive web design for mobile or desktop browsing</p>
+            </div>
+          </div> 
+          <div class="aimg" id="rdimg" >
+            <img src="~/images/gear.png" alt="integration of responsive design" >
+            <div class="atext" id="3rdtext" >
+              <h3>FRAMEWORK DRIVEN</h3>
+              <p>Understanding of several frameworks for versatile development.</p>
+            </div> 
+          </div>  
+        </div>
+        <div id="chart">
+          <h2>CAPABILITIES IN 3 <strong>FULL </strong>STACKS</h2>
+          <div class="section2 avatar" id="fthimg">          
+              <img src="~/images/python-128.png" alt="python logo" >
+              <h3>PYTHON</h3>
+              <p>SQLITE</p>
+              <p>FLASK</p>
+              <p>DJANGO</p>
+              <p>JINJA</p>
+              <!-- <canvas id="myChart" width="300" height="600" ></canvas> -->
+          </div>
+          <div class="section2 avatar" id="fithimg">          
+              <img src="~/images/angular_stack.png" alt="Angular logo" >
+              <h3>MEAN</h3>
+              <p>MONGODB</p>
+              <p>EXPRESS</p>
+              <p>ANGULAR</p>
+              <p>NODE.JS</p>
+              <!-- <canvas id="myChart2" width="300" height="600" ></canvas> -->
+          </div>
+          <div class="section2 avatar" id="sthimg">
+              <img src="~/images/aspdev.png" alt=".NET ASP logo" >
+              <h3>C#</h3>
+              <p>ASP.NET</p>
+              <p>LINQ</p>
+              <p>EF CORE</p>
+              <p>RAZOR</p>
+              <!-- <canvas id="myChart3" width="300" height="600"></canvas> -->
+          </div>
+          <button href="#projects" class="pbtn2" id="plink2">PROJECTS</button>
+        </div>
+      </div>
+      </div>
+  </div>
+
+  <div id="projects">
+      <div>
+        <h1 id="headline3" class=" mast mast__header mast__title">projects</h1> 
+        <div id="stacks" style="display: none;">
+          <h3 id="s1">PYTHON</h3>
+          <h3 id="s2">MEAN</h3>
+          <h3 id="s3">ASP.NET</h3>
+        </div>
+        <div class="projects" id="p1" style="display:none">
+          <h2 id="pid">PYTHON</h2>
+          <div class="project1" id="pj1">
+            <img src="~/images/traintracker.png">
+          </div>
+          <div class="github1" id="gh1">
+            <img src="~/images/traintracker.png">
+          </div>
+        </div>
+        <div class="projects" id="p2" style="display:none">
+          <h2 id="mid">MEAN</h2>
+          <div class="project1" id="pj2">
+            <img src="~/images/traintracker.png">
+          </div>
+          <div class="github1" id="gh2">
+            <img src="~/images/traintracker.png">
+          </div>
+        </div>
+        <div class="projects" id="p3" style="display:none;">
+          <h2 id="aid">ASP.NET</h2>
+          <div class="project1" id="pj3">
+            <img src="~/images/traintracker.png">
+          </div>
+          <div class="github1" id="gh3">
+            <img src="~/images/traintracker.png">
+          </div>
+        </div>
+      </div>  
+  </div>
+  <div id="contact">
+    <h1>CONTACT</h1>
+    <div id="circle" class="bounce">
+      
+    </div>
+    <div id="circle2" >
+      <div id="iris" class="bouncelite">  
+        
+      </div>
+    </div>
+    <form asp-action="contact" asp-controller="Home" method="post">
+      <div id="fname">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName"/>
+        <span asp-validation-for="FirstName" class="error"></span>
+      </div>
+      <div id="lname">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName">
+        <span asp-validation-for="LastName" class="error"></span>
+      </div>
+      <div id="email">
+        <label asp-for="Email"></label>
+        <input type="email" asp-for="Email">
+        <span asp-validation-for="Email" class="error"></span>
+      </div>
+      <div id="comment">
+        <label asp-for="Comment"></label>
+        <textarea cols="35" rows="7" asp-for="Comment"></textarea>
+        <span asp-validation-for="Email" class="error"></span>
+      </div>
+      <button type="submit" id="submit" class="pbtn3">CONTACT</button>
+    </form>
+    <button id="contactbtn" class="pbtn3 avatar">CONTACT ME</button>
+  </div>
+
+
+
+
+

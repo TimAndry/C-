@@ -1,0 +1,19 @@
+<a asp-action="Logout"><button type="submit">Logout</button></a>
+<h2>This is @ViewBag.wedding.WedderOne and @ViewBag.wedding.WedderTwo's wedding information</h2>
+<h4>The wedding ceremony is scheduled for @ViewBag.wedding.WeddingDate</h4>
+<br>
+<h4>Address Information</h4>
+<p>@ViewBag.wedding.WeddingAddress</p>
+<br>
+<h4>Guests Attending:</h4>
+@{
+    foreach(var wedding in @ViewBag.AllWeddings){
+        if(wedding.WeddingId == @ViewBag.wedding.WeddingId){
+            foreach(var guest in wedding.Wedders){
+                <p>@guest.User.FirstName</p>
+            }
+        }
+    }
+}
+
+<a asp-action="Weddings"><button type="submit">Back</button></a>

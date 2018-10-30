@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Random Passcode!</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper">
+        <p>Random passcode (passcode #@ViewBag.number)</p>
+        <h1>@ViewBag.randompass</h1>
+        <form asp-action="Randomize" asp-controller="RandoDando" method="POST">
+            <button type="submit">Generate</button>
+        </form>
+        <form action="clear"  method="GET">
+            <button type="submit">Clear</button>
+        </form>
+    </body>
+</html>

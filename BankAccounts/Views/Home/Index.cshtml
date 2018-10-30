@@ -1,0 +1,50 @@
+﻿@model User
+
+<h1 class="head">Dojo Banking</h1>
+<h1 class="top">Login Registration</h1><br><br>
+<div id="wrapper">
+    <div class="Registration">
+        <h2>Registration</h2><br>
+        <form asp-action="create" asp-controller="Home" method="post">
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName"><br>
+            <span asp-validation-for="FirstName" class="error"></span><br><br>
+            
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName"><br>
+            <span asp-validation-for="LastName" class="error"></span><br><br>
+            
+            <label asp-for="Email"></label>
+            <input type="email" asp-for="Email"><br>
+            <span asp-validation-for="Email" class="error"></span>
+            <p class="error">@ViewBag.EmailErrors</p>
+            <br>
+
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password"><br>
+            <span asp-validation-for="Password" class="error"></span><br><br>
+
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword" type="password">
+            <p class="error">@ViewBag.PassErrors</p><br>
+            <span asp-validation-for="ConfirmPassword" class="error"></span><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <div class="Login">
+        <h2>Login</h2><br>
+        <form action="LoginHome" method="post">
+            <label for="Mail">Email: </label>
+            <input type="email" name="Mail"><br><br>
+
+            <label for="Password">Password: </label>
+            <input name="Password" type="password"><br><br>
+            <p class="error">@ViewBag.Errors</p><br>
+                
+            <button type="submit" value="LoginHome">Login</button>
+        </form>   
+    </div>
+
+</div>
+

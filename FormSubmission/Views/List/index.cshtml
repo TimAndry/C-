@@ -1,0 +1,38 @@
+@model Survey
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Hello!</title>
+        <!-- In this context '~' refers to the wwwroot folder -->
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body id="wrapper">
+        <h1>Registration</h1>
+        <form asp-action="Index" asp-controller="List" method="post">
+            <!--The 'Name' input includes validation -->
+            <span asp-validation-for="FirstName" class="error"></span><br>
+            <label asp-for="FirstName"></label>
+            <input asp-for="FirstName"><br><br>
+
+            <span asp-validation-for="LastName" class="error"></span><br>
+            <label asp-for="LastName"></label>
+            <input asp-for="LastName"><br><br>
+
+            <span asp-validation-for="Age" class="error"></span><br>
+            <label asp-for="Age"></label>
+            <input asp-for="Age"><br><br>
+
+            <span asp-validation-for="Email" class="error"></span><br>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" type="email"><br><br>
+
+            <span asp-validation-for="Password" class="error"></span><br>
+            <label asp-for="Password"></label>
+            <input asp-for="Password" type="password"><br><br>
+
+            <button type="submit">Submit</button>
+            
+        </form>
+    </body>
+</html>
